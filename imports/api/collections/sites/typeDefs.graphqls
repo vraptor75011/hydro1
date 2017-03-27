@@ -1,0 +1,5 @@
+type Site {
+    _id: ID
+    name: String
+    owner: User
+}

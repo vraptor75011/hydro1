@@ -1,0 +1,37 @@
+{
+  "name": "hydro1",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "antd": "^2.7.3",
+    "apollo-client": "^1.0.0-rc.6",
+    "babel-runtime": "^6.20.0",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "classnames": "^2.2.5",
+    "d3": "^4.7.4",
+    "express": "^4.15.2",
+    "graphql": "^0.9.1",
+    "graphql-server-express": "^0.6.0",
+    "graphql-tools": "^0.10.1",
+    "indexof": "0.0.1",
+    "jsmodbus": "^2.0.2",
+    "meteor-node-stubs": "~0.2.0",
+    "node-couchdb": "^1.1.1",
+    "pouchdb": "^6.1.2",
+    "react": "^15.4.2",
+    "react-addons-pure-render-mixin": "^15.4.2",
+    "react-apollo": "^1.0.0-rc.3",
+    "react-dom": "^15.4.2",
+    "react-komposer": "^2.0.0",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "rickshaw": "^1.6.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.1.1",
+    "babel-plugin-inline-import": "^2.0.4"
+  }
+}

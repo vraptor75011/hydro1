@@ -1,0 +1,5 @@
+extend type Mutation {
+    insertSite(userId: String!, name: String): Site
+    updateSite(userId: String!, siteId: String!, name: String): Site
+    removeSite(userId: String!, siteId: String!): Site
+}
