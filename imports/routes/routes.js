@@ -6,6 +6,8 @@ import { AuthenticatedRoute } from '../ui/AuthenticatedRoute';
 import {App} from '../ui/App';
 import {Login} from '../ui/Login';
 import React from 'react';
+import { LocaleProvider } from 'antd';
+import frFR from 'antd/lib/locale-provider/fr_BE';
 
 const unauthenticatedPages = ['/', '/signup'];
 
@@ -21,9 +23,11 @@ export const onAuthChange = (isAuthenticated) => {
 
 export const routes = (
   <BrowserRouter>
-    <div>
-      <Route exact path="/" component={Login}/>
-      <AuthenticatedRoute component={App}/>
-    </div>
+    <LocaleProvider locale={frFR}>
+      <div>
+        <Route exact path="/" component={Login}/>
+        <AuthenticatedRoute component={App}/>
+      </div>
+    </LocaleProvider>
   </BrowserRouter>
 );
